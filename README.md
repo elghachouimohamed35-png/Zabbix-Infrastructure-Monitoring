@@ -1,10 +1,10 @@
 # Zabbix Infrastructure Monitoring
 
-## Project Overview
+## 📌 Project Overview
 
-This project demonstrates the deployment and configuration of a complete enterprise monitoring infrastructure using Zabbix.
+This project demonstrates the deployment and configuration of an enterprise infrastructure monitoring solution using Zabbix.
 
-The environment includes:
+## 🖥️ Infrastructure
 
 - Ubuntu Server 24.04 LTS
 - Zabbix Server 7.0
@@ -13,6 +13,19 @@ The environment includes:
 - DNS Server
 - DHCP Server
 - Zabbix Agent 2
-- MariaDB Database
+- MariaDB
 
-The objective is to provide centralized monitoring, real-time alerts, and infrastructure performance analysis.
+## 🎯 Objectives
+
+- Monitor Windows Server in real time
+- Monitor DNS Service
+- Monitor DHCP Service
+- Monitor CPU Usage
+- Monitor Memory Usage
+- Monitor Disk Usage
+- Monitor Network Traffic
+- Generate alerts for service failures
+
+---
+
+Created by **Mohamed Ghachoui**

@@ -10,39 +10,59 @@
 
 This project demonstrates the deployment and configuration of an enterprise infrastructure monitoring solution using **Zabbix 7.0**.
 
-The monitoring platform is installed on **Ubuntu Server 24.04 LTS** and monitors a **Windows Server 2019** environment running Active Directory, DNS, and DHCP services.
+The monitoring platform is deployed on **Ubuntu Server 24.04 LTS** and monitors a **Windows Server 2019** infrastructure hosting **Active Directory Domain Services (AD DS)**, **DNS**, and **DHCP** services.
+
+The project also includes infrastructure dashboards, service monitoring, trigger configuration, and email alert notifications using Gmail SMTP.
 
 ---
 
-## 🖥 Infrastructure
+## 🛠 Technologies Used
 
 - Ubuntu Server 24.04 LTS
 - Zabbix Server 7.0
+- Zabbix Agent 2
 - Windows Server 2019
 - Active Directory Domain Services (AD DS)
 - DNS Server
 - DHCP Server
-- Zabbix Agent 2
 - MariaDB
+- Apache
+- Gmail SMTP
 
 ---
 
 ## 🎯 Project Objectives
 
-- Monitor Windows Server in real time
-- Monitor DNS Service
-- Monitor DHCP Service
-- Monitor CPU Usage
-- Monitor Memory Usage
-- Monitor Disk Usage
-- Monitor Network Traffic
-- Generate alerts for service failures
+- Monitor Windows Server availability
+- Monitor Active Directory services
+- Monitor DNS service
+- Monitor DHCP service
+- Monitor CPU utilization
+- Monitor Memory utilization
+- Monitor Disk usage
+- Monitor Network traffic
+- Configure email notifications
+- Detect service failures using triggers
+
+---
+
+## ✨ Features
+
+- Real-time Infrastructure Monitoring
+- Host Availability Monitoring
+- Service Health Monitoring
+- CPU, Memory and Disk Monitoring
+- Network Traffic Monitoring
+- DNS Monitoring
+- Email Alert Notifications
+- Infrastructure Dashboard
+- Trigger-based Event Detection
 
 ---
 
 ## 📷 Project Screenshots
 
-The **images** folder contains screenshots documenting the deployment and configuration of the monitoring environment.
+The **images** folder contains screenshots documenting the complete deployment, configuration, monitoring, testing, and alert notification workflow.
 
 ---
 
@@ -63,3 +83,5 @@ https://www.linkedin.com/in/mohammed-ghachoui-93b250350
 This project is published for educational and portfolio purposes.
 
 © 2026 Mohammed Ghachoui. All rights reserved.
+
+

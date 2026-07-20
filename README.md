@@ -47,3 +47,78 @@ The project includes infrastructure dashboards, service monitoring, trigger conf
 ---
 
 ## 🏗 Infrastructure Architecture
+
+```text
+                Windows Server 2019
+          (AD DS + DNS + DHCP Services)
+                       |
+                       |
+                Zabbix Agent 2
+                       |
+                       |
+              Ubuntu Server 24.04
+              Zabbix Server 7.0
+                       |
+                       |
+              Web Dashboard
+              Email Alerts
+
+---
+
+## ✨ Features
+
+- Real-time Infrastructure Monitoring
+- Host Availability Monitoring
+- Service Health Monitoring
+- CPU, Memory and Disk Monitoring
+- Network Traffic Monitoring
+- DNS Monitoring
+- Email Alert Notifications
+- Infrastructure Dashboard
+- Trigger-based Event Detection
+
+---
+
+## 📷 Project Screenshots
+
+The **images** folder contains screenshots documenting the complete deployment, configuration, monitoring, testing, and alert notification workflow.
+
+Screenshots include:
+
+- Zabbix Dashboard
+- Host Configuration
+- CPU / Memory / Disk Graphs
+- Trigger Configuration
+- Email Alert Notification
+- Windows Server Monitoring
+
+---
+
+## 🎯 Skills Demonstrated
+
+- Linux Server Administration
+- Zabbix Monitoring Configuration
+- Infrastructure Monitoring
+- Windows Server Monitoring
+- Network Troubleshooting
+- Service Availability Management
+- Alerting and Notification Configuration
+
+---
+
+## 📬 Contact
+
+**Mohamed Ghachoui**
+
+📧 Email: Elghachouimohamed35@gmail.com
+
+🔗 LinkedIn:
+https://www.linkedin.com/in/mohammed-ghachoui-93b250350
+
+---
+
+## 📄 License
+
+This project is published for educational and portfolio purposes.
+
+© 2026 Mohammed Ghachoui. All rights reserved.
